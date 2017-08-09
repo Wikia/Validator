@@ -17,13 +17,10 @@ define( 'ParamProcessor_VERSION', Validator_VERSION ); // @deprecated since 1.0
 
 // Internationalization
 $GLOBALS['wgMessagesDirs']['Validator'] = __DIR__ . '/i18n';
+$GLOBALS['wgExtensionMessagesFiles']['Validator'] = __DIR__ . '/Validator.i18n.php';
 
 
 $GLOBALS['wgExtensionFunctions'][] = function () {
-	if ( version_compare( $GLOBALS['wgVersion'], '1.23c', '<' ) ) {
-		die( '<b>Error:</b> This version of Validator requires MediaWiki 1.23 or above.' );
-	}
-
 	if ( is_readable( __DIR__ . '/vendor/autoload.php' ) ) {
 		include_once( __DIR__ . '/vendor/autoload.php' );
 	}
