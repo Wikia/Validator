@@ -1,5 +1,5 @@
 {
-	"name": "wikia/validator",
+	"name": "mediawiki/validator",
 	"type": "mediawiki-extension",
 	"description": "MediaWiki wrapper for the ParamProcessor library",
 	"keywords": [
