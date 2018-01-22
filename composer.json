@@ -9,13 +9,13 @@
 		"SMW",
 		"Semantic MediaWiki"
 	],
-	"homepage": "https://github.com/Wikia/Validator",
-	"license": "GPL-2.0+",
+	"homepage": "https://github.com/JeroenDeDauw/Validator",
+	"license": "GPL-2.0-or-later",
 	"authors": [
 		{
 			"name": "Jeroen De Dauw",
 			"email": "jeroendedauw@gmail.com",
-			"homepage": "http://jeroendedauw.com",
+			"homepage": "https://www.entropywins.wtf",
 			"role": "Developer"
 		}
 	],
